@@ -1,1 +1,102 @@
-Test
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AWS Voting Analysis Project</title>
+</head>
+<body style="font-family:Arial; color:#333333; line-height:1.6; padding:40px; background-color:#ffffff;">
+
+<h1 style="color:#2e6c80;">Cloud-Based Analysis of Council Voting Patterns Using AWS Services</h1>
+
+<h2 style="color:#2e6c80;">Descriptive Analysis</h2>
+<p>The duality of the dataset used in this project is that it has the voting history of the council members. This project aims to conduct a descriptive analysis using various AWS services to uncover voting trends, identify members who tend to vote similarly, and detect patterns. This analysis can inform council decisions to be more open and transparent. Simple statistics and visualization tools will be used to explain the dataset.</p>
+
+<h2 style="color:#2e6c80;">Project Description</h2>
+<p>This project explores council voting records with cloud-based tools. Data is stored in Amazon S3, processed with AWS Glue and Glue DataBrew, queried with Athena, and visualized in QuickSight. IAM and KMS secure the data, while CloudWatch supports monitoring. EC2 may be used for additional workloads. The goal is to create clean, interpretable data and generate useful dashboards and reports.</p>
+
+<h2 style="color:#2e6c80;">Project Title</h2>
+<p><strong>Cloud-Based Analysis of Council Voting Patterns Using AWS Services</strong></p>
+
+<h2 style="color:#2e6c80;">Objective</h2>
+<p>To study and understand the voting patterns of council members using cloud services. This includes exploring voting frequency, consensus on topics, and decision trends. The project highlights working with real data in a secure and modern way using cloud infrastructure.</p>
+
+<h2 style="color:#2e6c80;">Dataset</h2>
+<p>The dataset contains voting records in CSV format. It includes information about who voted, how they voted, and on what issues. It is stored in S3 and is clean and comprehensive for analysis.</p>
+<img src="https://github.com/user-attachments/assets/8860ca5e-fabc-4eb4-be0b-0454493eee77" style="max-width:100%; height:auto; margin:20px 0;" />
+
+<h2 style="color:#2e6c80;">Methodology</h2>
+<ol>
+<li>Upload dataset to Amazon S3</li>
+<li>Clean and transform using AWS Glue and DataBrew</li>
+<li>Query using Amazon Athena</li>
+<li>Secure access via IAM and KMS</li>
+<li>Visualize results through dashboards and reports</li>
+</ol>
+<img src="https://github.com/user-attachments/assets/e66ed03e-6052-4c16-8e74-ebebe881d2b1" style="max-width:100%; height:auto;" />
+<img src="https://github.com/user-attachments/assets/c4434931-ea7f-46ec-b953-87d63c6c0736" style="max-width:100%; height:auto;" />
+
+<h2 style="color:#2e6c80;">Tools and Technologies</h2>
+<ul>
+<li><strong>Amazon S3</strong>: Data storage</li>
+<li><strong>AWS Glue & Glue DataBrew</strong>: Data transformation</li>
+<li><strong>Amazon Athena</strong>: Querying data</li>
+<li><strong>Amazon QuickSight</strong>: Data visualization</li>
+<li><strong>IAM & KMS</strong>: Security</li>
+<li><strong>Amazon EC2</strong>: Optional compute</li>
+<li><strong>Amazon CloudWatch</strong>: Monitoring and logs</li>
+</ul>
+<img src="https://github.com/user-attachments/assets/d6182c23-3bc4-49de-a6d1-98815e37335a" style="max-width:100%; height:auto;" />
+<img src="https://github.com/user-attachments/assets/0106ced5-0171-4a8b-9ccd-09b6f2a579d0" style="max-width:100%; height:auto;" />
+
+<h2 style="color:#2e6c80;">Deliverables</h2>
+<ul>
+<li>Cleaned dataset</li>
+<li>SQL queries on Athena</li>
+<li>Summary reports and dashboards</li>
+<li>Visualizations of voting patterns</li>
+</ul>
+
+<h2 style="color:#2e6c80;">AWS Deployment and Service Models</h2>
+<ul>
+<li><strong>Deployment Model</strong>: Public Cloud</li>
+<li><strong>Service Models</strong>: Platform as a Service (PaaS), Software as a Service (SaaS)</li>
+</ul>
+<img src="https://github.com/user-attachments/assets/eb2214ce-691e-4b90-bb5e-d07877b066cb" style="max-width:100%; height:auto;" />
+<img src="https://github.com/user-attachments/assets/16396259-1f28-47ce-ae58-6f8ff9864e0d" style="max-width:100%; height:auto;" />
+<img src="https://github.com/user-attachments/assets/f1d5e3dd-8f69-4e12-882c-8000cce884e4" style="max-width:100%; height:auto;" />
+<img src="https://github.com/user-attachments/assets/9b331dfc-2a1c-4006-9251-ed1137d62189" style="max-width:100%; height:auto;" />
+
+<h2 style="color:#2e6c80;">AWS Cost Analysis</h2>
+<ul>
+<li>S3: Low cost</li>
+<li>Glue/DataBrew: Charged by jobs and sessions</li>
+<li>Athena: Charged per data scanned</li>
+<li>EC2: Pay per usage</li>
+<li>IAM/KMS: Basic usage is free</li>
+<li>CloudWatch: Free tier with optional additional cost</li>
+</ul>
+<img src="https://github.com/user-attachments/assets/9b70fb15-0522-45b4-8ac9-64a39a269778" style="max-width:100%; height:auto;" />
+
+<h2 style="color:#2e6c80;">AWS Global Infrastructure</h2>
+<p>AWS’s global data center network offers high availability and resilience. The project benefits from scalability, security, and performance enhancements by choosing the appropriate AWS region.</p>
+<img src="https://github.com/user-attachments/assets/d8f250f2-5e7f-451c-9083-c5467ed9eeec" style="max-width:100%; height:auto;" />
+<img src="https://github.com/user-attachments/assets/9250831c-a872-4125-b448-338afc758855" style="max-width:100%; height:auto;" />
+
+<h2 style="color:#2e6c80;">AWS IAM</h2>
+<p>IAM manages user access and permissions, logs actions, supports multi-factor authentication, and integrates with KMS for encryption. It ensures secure, role-based access control.</p>
+<img src="https://github.com/user-attachments/assets/891a9c3a-1b7b-4a89-abea-7df4a02bbd7a" style="max-width:100%; height:auto;" />
+
+<h2 style="color:#2e6c80;">AWS VPC</h2>
+<p>Amazon VPC provides a private cloud network for managing services like EC2, with support for IP configurations, subnets, and gateways. It helps secure the project and manage traffic flow.</p>
+
+<h2 style="color:#2e6c80;">AWS Lambda</h2>
+<p>AWS Lambda enables running code in response to events without server management. It is cost-effective and supports automation (e.g., triggering Glue jobs upon new uploads).</p>
+
+<h2 style="color:#2e6c80;">AWS EBS</h2>
+<p>Amazon EBS provides persistent storage for EC2. While not a primary storage, it’s helpful for EC2-based tasks or local processing.</p>
+
+<hr />
+
+</body>
+</html>
