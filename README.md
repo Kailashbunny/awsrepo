@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/35e7d484-be1d-4ec9-9bd3-dff51282ed0a)# Cloud-Based Analysis of Council Voting Patterns Using AWS Services
+# Cloud-Based Analysis of Council Voting Patterns Using AWS Services
 
 ## Descriptive Analysis
 The duality of the dataset used in this project is that it has the voting history of the council members. This project aims to conduct a descriptive analysis using various AWS services to uncover voting trends, identify members who tend to vote similarly, and detect patterns. This analysis can inform council decisions to be more open and transparent. Simple statistics and visualization tools will be used to explain the dataset.
